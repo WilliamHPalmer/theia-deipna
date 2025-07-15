@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Restaurant Photo Gallery</h1>
+  <div class="gallery">
+    <div class="photo" data-description="Great tacos at El Camino!">
+      <img src="images/restaurant1.jpg" alt="El Camino">
+    </div>
+    <div class="photo" data-description="Amazing sushi at Saito!">
+      <img src="images/restaurant2.jpg" alt="Saito">
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
